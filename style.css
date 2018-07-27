@@ -61,8 +61,34 @@ body {
 
 /* ---- css shame ---- */
 
+h3, h2, h1 {
+  font-family: Merienda;
+}
+
+p {
+  font-family: Merriweather;
+}
+
+.section-container {
+  margin: 0px 20px 1px 20px;
+  height: 200px;
+}
+
+.benefits h3 {
+  margin: 0;
+  color: white;
+  padding-top: 20px;
+}
+
+.benefits p {
+  margin: 0;
+  color: white;
+  padding-top: 10px;
+}
+
 .benefit-one {
-  background-image: url('http://via.placeholder.com/150x350');
+  background: url('./assets/benefits1.jpeg');
+  background-position: center;
 }
 
 .benefit-two {
