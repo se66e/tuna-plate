@@ -97,15 +97,15 @@ header p {
 }
 
 .sales-button {
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
   background-color: #EC695C;
   border-radius: 5px;
   height: 40px;
   border: none;
   font-size: 15px;
+  font-weight: bold;
   color: white;
-  
 }
 
 .section-container {
@@ -146,10 +146,6 @@ header p {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 1px;
-}
-
-button {
-  border: 1px solid black;
 }
 
 .benefits ul {
