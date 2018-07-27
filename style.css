@@ -43,3 +43,10 @@ body {
 
 /* ---- css shame ---- */
 
+.benefit-one {
+  background-image: url('http://via.placeholder.com/150x350')
+}
+
+button {
+  border: 1px solid black;
+}
