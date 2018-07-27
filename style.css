@@ -88,6 +88,14 @@ p {
   text-align: center;
 }
 
+.hero-image img {
+  width: 100%;
+}
+
+header p {
+  margin: 0 0 40px 0;
+}
+
 .sales-button {
   width: 150px;
   margin: 0 auto;
