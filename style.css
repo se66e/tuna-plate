@@ -44,19 +44,22 @@ body {
 /* ---- css shame ---- */
 
 .benefit-one {
-  background-image: url('http://via.placeholder.com/150x350')
+  background-image: url('http://via.placeholder.com/150x350');
 }
 
 .benefit-two {
-  background-image: url('http://via.placeholder.com/150x350')
+  background-image: url('./assets/benefit2.jpeg');
+  background-position: center;
 }
 
 .benefit-three {
-  background-image: url('http://via.placeholder.com/150x350')
+  background-image: url('./assets/benefit3.jpg');
+  background-position: center;
 }
 
 .benefit-four {
-  background-image: url('http://via.placeholder.com/150x350')
+  background-image: url('./assets/benefit4.jpeg');
+  background-position: center;
 }
 
 button {
