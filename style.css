@@ -47,6 +47,26 @@ body {
   background-image: url('http://via.placeholder.com/150x350')
 }
 
+.benefit-two {
+  background-image: url('http://via.placeholder.com/150x350')
+}
+
+.benefit-three {
+  background-image: url('http://via.placeholder.com/150x350')
+}
+
+.benefit-four {
+  background-image: url('http://via.placeholder.com/150x350')
+}
+
 button {
   border: 1px solid black;
+}
+
+.benefits ul {
+  padding: 0;
+}
+
+.benefits li {
+  list-style-type: none;
 }
