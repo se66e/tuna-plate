@@ -61,6 +61,10 @@ body {
 
 /* ---- css shame ---- */
 
+h1, h2 {
+  color: #4a4a4a
+}
+
 h3, h2, h1 {
   font-family: Merienda;
 }
@@ -69,41 +73,67 @@ p {
   font-family: Merriweather;
 }
 
+.main-container header h1,
+.main-container header h1 {
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sales-button {
+  width: 150px;
+  margin: 0 auto;
+  background-color: #EC695C;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  
+}
+
 .section-container {
-  margin: 0px 20px 1px 20px;
-  height: 200px;
+  padding: 20px;
 }
 
 .benefits h3 {
   margin: 0;
+  margin-bottom: 10px;
   color: white;
-  padding-top: 20px;
 }
 
 .benefits p {
   margin: 0;
   color: white;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .benefit-one {
-  background: url('./assets/benefits1.jpeg');
-  background-position: center;
+  background: url('./assets/benefits1.png');
 }
 
 .benefit-two {
-  background-image: url('./assets/benefit2.jpeg');
-  background-position: center;
+  background-image: url('./assets/benefit2.png');
+
 }
 
 .benefit-three {
-  background-image: url('./assets/benefit3.jpg');
-  background-position: center;
+  background-image: url('./assets/benefit3.png');
 }
 
 .benefit-four {
-  background-image: url('./assets/benefit4.jpeg');
+  background-image: url('./assets/benefit4.png');
+
+}
+
+.benefits-background {
   background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1px;
 }
 
 button {
@@ -116,4 +146,9 @@ button {
 
 .benefits li {
   list-style-type: none;
+}
+
+.footer h3,
+.footer p {
+  margin-top: 0;
 }
