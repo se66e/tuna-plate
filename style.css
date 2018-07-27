@@ -62,7 +62,11 @@ body {
 /* ---- css shame ---- */
 
 h1, h2 {
-  color: #4a4a4a
+  color: #4a4a4a;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 h3, h2, h1 {
@@ -151,4 +155,7 @@ button {
 .footer h3,
 .footer p {
   margin-top: 0;
+  text-align: left;
 }
+
+
